@@ -1,0 +1,3 @@
+./Week16Mon
+Initial Array: 100 5 1 70 9 21 12 18 3 7 4 10 2 11 22 0 50 
+Heap Sorted Array: 0 1 2 3 4 5 7 9 10 11 12 18 21 22 50 70 100 
