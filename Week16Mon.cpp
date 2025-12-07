@@ -27,15 +27,10 @@ void heapsort(vector<T>& arr) {
 }
 
 int main() {
-    vector<int> arr = {100, 5, 1, 70, 9, 21, 12, 18, 3, 7, 4, 10, 2, 11, 22, 0, 50};
+    vector<int> arr = {5, 1, 9, 3, 7, 4};
 
-	cout << "Initial Array: ";
-    for (int x : arr)
-        cout << x << " ";
-    cout << endl;
     heapsort(arr);
 
-	cout << "Heap Sorted Array: ";
     for (int x : arr)
         cout << x << " ";
     cout << endl;
